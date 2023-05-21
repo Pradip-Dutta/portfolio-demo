@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <title>portfolio</title>
+</head>
+<body>
+    <!-- navication -->
+
+    <header>
+        <nav id="navbar">
+            <div class="left">Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contect">Contect</a></li>
+                    <li><button onclick="myFunction()" class="dark-btn">Dark mode</button></li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first-section" data-aos="fade-up"
+        data-aos-anchor-placement="top-center">
+            <div class="left-section">
+               <p class="hero-text"> Hi, i'm <span class="violet">Pradip,</span></p>
+               <p></p>
+               <span id="element"></span>
+            </div>
+            <div class="right-section">
+                <img src="img/2211.w026.n002.2759B.p1.2759-removebg-preview.png" alt="">
+            </div>
+        </section>
+    </main>
+
+
+
+    <!-- about -->
+
+    <section class="container" id="about" data-aos="fade-up"
+    data-aos-anchor-placement="top-center">
+        <div class="about-image">
+            <img src="/img/about.png" alt="">
+        </div>
+        <div class="about-box">
+            <h2>About me.</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim ratione voluptate beatae sit, ipsam voluptates, exercitationem vero cum consectetur iure praesentium ut pariatur provident temporibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut molestiae, praesentium molestias soluta quas commodi.</p>
+            <div class="skill">
+                <p>HTML</p>
+            <div class="skill-container"  data-aos="zoom-in-left">
+            <div class="skills html">80%</div>
+            </div>
+
+            <p>CSS</p>
+            <div class="skill-container"  data-aos="zoom-in-left">
+            <div class="skills css">70%</div>
+            </div>
+
+            <p>JavaScript</p>
+            <div class="skill-container"  data-aos="zoom-in-left">
+            <div class="skills js">65%</div>
+            </div>
+
+            <p>Bootstrap</p>
+            <div class="skill-container"  data-aos="zoom-in-left">
+            <div class="skills bootstrap">60%</div>
+</div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- services -->
+
+    <section class="services-box" id="services" data-aos="fade-up"
+    data-aos-anchor-placement="top-center">
+        <h2>Services</h2>
+
+        <div class="container">
+            <div class="service-list">
+                <p> Provideing wed design,logo design, flyaer, landing pages & more.<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi qui sint exercitationem? Necessitatibus eaque vero deleniti dolores maxime odit id?</p>
+                <button class="service-btn">Expolore</button>
+            </div>
+            <div class="service-image">
+                <img src="/img/services.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- project section -->
+
+    <div class="project" id="project" data-aos="fade-up"
+    data-aos-anchor-placement="top-center">
+        <h2>Project's</h2>
+
+        <div class="project-box">
+            <div class="project-card">
+                <img src="/img/card1.jpg" alt="">
+                <h3>project 1</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, repellat?</p>
+                <button class="project-btn">Expolore</button>
+            </div>
+
+            <div class="project-card">
+                <img src="/img/card2.jpg" alt="">
+                <h3>project 1</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, repellat?</p>
+                <button class="project-btn">Expolore</button></div>
+
+            <div class="project-card">
+                <img src="/img/card3.jpg" alt="">
+                <h3>project 1</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, repellat?</p>
+                <button class="project-btn">Expolore</button></div>
+        </div>
+    </div>
+
+<!-- contect -->
+
+<section class="contect" id="contect" data-aos="fade-up"
+data-aos-anchor-placement="top-center">
+    <h2>Contect</h2>
+
+    <div class="contect-box">
+        <div class="contect-image">
+            <img src="/img/contect.png" alt="">
+        </div>
+
+        <div class="contect-form">
+            <form action="action_page.php">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                  <option value="india">India</option>
+                  <option value="pakistan">Pakistan</option>
+                  <option value="nepal">Nepal</option>
+                  <option value="shiri lanka">Shiri lanka</option>
+                </select>
+            
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            
+                <input type="submit" value="Submit">
+            
+              </form>
+        </div>
+    </div>
+</section>
+
+<!-- footer -->
+
+<footer>
+    <div class="left-foot">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contect">Contect</a></li>
+    </div>
+    <div class="right-foot">
+        <ul>
+            <li><i class="fa fa-map-marker" aria-hidden="true"></i>  address: 14/132, new delhi-62</li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i>  Phone: 70420xxxxx</li>
+            <li><i class="fa fa-envelope" aria-hidden="true"></i>  Email: pd710109@gmail.com</li>
+        </ul>
+    </div>
+</footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        //typing speed & text
+        var typed = new Typed('#element', {
+          strings: ['<i>and  a crative web designer.</i>'],
+          typeSpeed:60 ,
+          loop:true,
+        });
+
+        // dark mode 
+        function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+        }
+
+        //stiky navbar
+        window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+
+      </script>
+</body>
+</html>
